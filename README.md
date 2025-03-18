@@ -33,7 +33,7 @@ A validação do formulário é realizada com JavaScript, garantindo que:
 - A mensagem não seja vazia.
 - O checkbox seja marcado para consentir com os termos.
 
-## Exemplo de Screenshot
+## Captura da Página
 
 Aqui está uma captura de tela da página com o formulário:
 
