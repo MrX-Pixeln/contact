@@ -130,11 +130,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
       // Esconde a mensagem após 3 segundos
       setTimeout(() => {
-        successMessage.style.display = "none";
+        successMessage.style.display = "block";
       }, 3000);
     } else {
       // Se houver erros, esconde a mensagem de sucesso
-      successMessage.style.display = "none";
+      successMessage.style.display = "block";
     }
   });
 });
