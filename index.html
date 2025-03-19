@@ -21,31 +21,54 @@
             </div>
             <p class="message">Thanks for completing the form. We'll be in touch soon!</p>
         </div>
-        <div class="email-form">
-            <label for="Email">Email Address *</label>
-            <input type="email" name="Email" id="Email">
-            <p class="aviso">Please enter a valid email address</p>
-        </div>
-        <!-- Inicio QueryType -->
-        <p id="Query">Query Type *</p>
-        <section class="container-radio">
-            <div class="input-radio">
-                <input type="radio" name="QueryType" id="GeneralEnquiry">
-                <label for="GeneralEnquiry">General Enquiry</label>
-            </div>
-            <div class="input-radio space">
-                <input type="radio" name="QueryType" id="SupportRequest">
-                <label for="SupportRequest">Support Request</label>
-            </div>
-        </section>
-        <p class="aviso">Please select a query type</p>
-        <!-- Final -->
-        <section class="container-message">
-            <p id="text-message">Message *</p>
-            <div class="message">
-                <textarea name="mensagem" id="msg"></textarea>
-                <p class="aviso">This field is required</p>
-            </div>
+        <section class="container-form">
+            <h1>Contact Us</h1>
+            <form id="contactForm" action="#" method="post">
+                <div class="form">
+                    <div class="input-form">
+                        <label for="First-Name">First Name *</label>
+                        <input type="text" name="First-Name" id="First-Name" title="Por favor, insira o título do livro">
+                        <p class="aviso">The field is required</p>
+                    </div>
+                    <div class="input-form">
+                        <label for="Last-Name">Last Name *</label>
+                        <input type="text" name="Last-Name" id="Last-Name">
+                        <p class="aviso">This field is required</p>
+                    </div>
+                </div>
+                <div class="email-form">
+                    <label for="Email">Email Address *</label>
+                    <input type="email" name="Email" id="Email">
+                    <p class="aviso">Please enter a valid email address</p>
+                </div>
+                <!-- Inicio QueryType -->
+                <p id="Query">Query Type *</p>
+                <section class="container-radio">
+                    <div class="input-radio">
+                        <input type="radio" name="QueryType" id="GeneralEnquiry">
+                        <label for="GeneralEnquiry">General Enquiry</label>
+                    </div>
+                    <div class="input-radio space">
+                        <input type="radio" name="QueryType" id="SupportRequest">
+                        <label for="SupportRequest">Support Request</label>
+                    </div>
+                </section>
+                <p class="aviso">Please select a query type</p>
+                <!-- Final -->
+                <section class="container-message">
+                    <p id="text-message">Message *</p>
+                    <div class="message">
+                        <textarea name="mensagem" id="msg"></textarea>
+                        <p class="aviso">This field is required</p>
+                    </div>
+                </section>
+                <div class="CheckBox">
+                    <input type="checkbox" name="consent" id="Consent">
+                    <label for="Consent">I consent to being contacted by the team *</label>
+                </div>
+                <p class="aviso">To submit this form, please consent to being contacted</p>
+                <input type="submit" value="Submit">
+            </form>
         </section>
     </main>
     <script src="script.js"></script>
