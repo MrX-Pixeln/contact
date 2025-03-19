@@ -37,4 +37,4 @@ A validação do formulário é realizada com JavaScript, garantindo que:
 
 Aqui está uma captura de tela da página com o formulário:
 
-![Screenshot da Página](design/captura.png)
+![Screenshot da Página](design/captura-tela.png)
