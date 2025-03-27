@@ -17,13 +17,13 @@ O formulário contém os seguintes campos:
 - **Mensagem**: Um campo de área de texto onde o usuário pode escrever sua mensagem.
 - **Checkbox**: Um campo de checkbox que o usuário deve marcar para consentir com os termos antes de enviar o formulário.
 
-### Tecnologias Utilizadas
+## 🔧 Tecnologias Utilizadas
 
 - **HTML**: Estrutura básica da página e do formulário.
 - **CSS**: Estilização da página e do formulário para um design mais agradável.
 - **JavaScript**: Validação do formulário para garantir que todos os campos sejam preenchidos corretamente antes do envio.
 
-## Validação
+## ✅ Validação
 
 A validação do formulário é realizada com JavaScript, garantindo que:
 
@@ -33,7 +33,7 @@ A validação do formulário é realizada com JavaScript, garantindo que:
 - A mensagem não seja vazia.
 - O checkbox seja marcado para consentir com os termos.
 
-## Captura da Página
+## 📸 Captura da Página
 
 Aqui está uma captura de tela da página com o formulário:
 
